@@ -1,0 +1,8 @@
+pydantic-ai-slim[mcp,openai]
+fastmcp
+duckduckgo-search
+requests
+beautifulsoup4
+tqdm
+sqlite-utils
+python-dotenv
