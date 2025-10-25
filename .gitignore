@@ -1,0 +1,27 @@
+# Ignore runtime artifacts (keep .gitkeep so folder exists)
+artifacts/*
+!artifacts/.gitkeep
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Local notes DB (generated at runtime)
+notes.sqlite
+artifacts/notes.sqlite
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env files and secrets
+.env
+.env.local
+.env.*.local
+
+# macOS files
+.DS_Store
